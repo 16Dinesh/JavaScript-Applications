@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+h1, p {
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  background-color: #ff6f61;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #ff4c3b;
+  transform: translateY(-2px);
+}
+
+#fact {
+  font-size: 1.2em;
+  margin: 20px;
+  color: #555;
+  max-width: 600px;
+}
+
+#Randimg {
+  width: 800px; /* Set the desired width */
+  height: 500px; /* Set the desired height */
+  object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+  margin: 20px 0;
+  border: 5px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.img {
+  height: 90vh;
+  width: 90vh;
+}
