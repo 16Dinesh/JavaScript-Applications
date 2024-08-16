@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --grey: #eee;
+    --dark-grey: #222831;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: var(--grey);
+    color: var(--black);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.counter-div {
+    width: 40rem;
+    border: 2px solid var(--grey);
+    padding: 2rem;
+    background-color: var(--light-blue);
+    color: var(--white);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.counter-div > * {
+    margin-bottom: 2rem;
+}
+
+.count {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  
+}
+
+.buttons button {
+    color: black !important;
+    width: 12rem;
+    height: 5rem;
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buttons button:hover {
+    transform: translateY(-3px);
+}
+
+button.subtract {
+    background-color: var(--color-sec);
+}
+
+button.reset {
+    background-color: var(--white);
+    color: var(--black);
+    border: 2px solid var(--black);
+}
+
+
+button:active {
+  transform: scale(0.95);
+}
