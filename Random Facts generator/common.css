@@ -57,4 +57,5 @@ button:hover {
 .img {
   height: 90vh;
   width: 90vh;
+  background-image: url("./Question.svg");
 }
