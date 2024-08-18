@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Ajith Aaron",
+        "age": 18,
+        "email": "a.aaron@gmail.com"
+    },
+
+    {
+        "id": 2,
+        "name": "Barry Allen",
+        "age": 25,
+        "email": "b.allen@gmail.com"
+    },
+
+    {
+        "id": 3,
+        "name": "Carol Smith",
+        "age": 22,
+        "email": "c.smith@gmail.com"
+    }
+
+]
