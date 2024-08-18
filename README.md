@@ -3,7 +3,7 @@
 A collection of simple yet powerful applications built using JavaScript. Each app demonstrates key concepts in web development, such as DOM manipulation, event handling, and API interaction.
 
 ## Table of Contents
-1. [Click to Copy](#Click to Copy)
+1. [Click to Copy](#click-to-Copy)
 2. [Counter App](#counter-app)
 3. [Date Countdown](#date-countdown)
 4. [Geolocation App](#geolocation-app)
