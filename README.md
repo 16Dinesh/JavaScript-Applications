@@ -22,3 +22,5 @@ A collection of simple yet powerful applications built using JavaScript. Each ap
 17. [Stone-Paper-Scissors Game](#stone-paper-scissors-game)
 18. [Number Guessing Game](#number-guessing-game)
 19. [http-calls](#http-calls)
+20. [Random Password Generator](#random-password-generator)
+21. [Drag and Drop](#drag-and-drop)
