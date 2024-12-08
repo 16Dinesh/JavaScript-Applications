@@ -17,7 +17,7 @@ A collection of simple yet powerful applications built using JavaScript. Each ap
 12. [Random Number Generator](#random-number-generator)
 13. [Random Quote Generator](#random-quote-generator)
 14. [Text Download](#text-download)
-15. [University Details App](#university-details-app)
+15. [University Details App](https://university-details-app.onrender.com)
 16. [Simon Box Game](#simon-box-game)
 17. [Stone-Paper-Scissors Game](#stone-paper-scissors-game)
 18. [Number Guessing Game](#number-guessing-game)
