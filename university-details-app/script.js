@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const btn = document.querySelector('.btn-primary');
-    const link = "http://universities.hipolabs.com/search?name=";
+    const link = "https://universities.hipolabs.com/search?name="; // Updated to HTTPS
 
     btn.addEventListener('click', async () => {
         let country = document.querySelector('input').value;
